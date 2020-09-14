@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
         exit(1);
     }
 
-    for (int i=1; i<=3; i++) {
+    for (int i=1; i<=10; i++) {
     	fgets(buff, sizeof(buff), fp);
     	ssidList.push_back(buff);
     }
